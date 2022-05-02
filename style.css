@@ -1,0 +1,80 @@
+
+#menu a{
+    font-size: 18px;
+    font-weight: bold;
+    color:#3f3f3f;
+}
+#menu button{
+    font-size: 18px;
+    font-weight: bold;
+}
+.carrousel-inner{
+    max-height: 39rem;
+}
+
+.HTML{
+    width: 70%;
+}
+.JAVA{
+    width: 70%;
+}
+.JAVASCRIPT{
+    width: 40%;
+}
+.ANGULAR{
+    width: 60%;
+}
+.PYTHON{
+    width: 85%;
+}
+.IMAGENES{
+    display: grid;
+    grid-template-columns: 300px 400px 400px 300px 300px;
+    padding: 60px;
+}
+.ul{
+    display: grid;
+    justify-content: center; 
+    padding-top: 50px;
+}
+article a{
+    display: flex;
+    justify-content: center;
+}
+article ul{
+    display: grid;
+    justify-content: center; 
+    padding-top: 50px;
+}
+.nav-item{
+    display: flex;
+    justify-content: center;
+}
+.HTML:hover{
+    transform: scale(1.1);
+    transition: .5s;  
+}
+.JAVA:hover{
+    transform: scale(1.1);
+    transition: .5s;  
+}
+.JAVASCRIPT:hover{
+    transform: scale(1.1);
+    transition: .5s;  
+}
+.ANGULAR:hover{
+    transform: scale(1.1);
+    transition: .5s;  
+}
+.PYTHON:hover{
+    transform: scale(1.1);
+    transition: .5s;  
+}
+@media screen and (max-width:1240px){
+    .IMAGENES{
+        display: grid;
+        grid-template-columns: 100px 100px 100px ;
+        justify-content: center;
+        gap: 5rem;
+    }
+}
